@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c278b08-46b1-459c-bf8b-4a59d12f5295" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WARkddUPmrXZw4a5MP7vaqQhio" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.FitnessBlenderTest.fitnessBlenderAddToCartTest">
+    <configuration name="FitnessBlenderTest.addToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DefaultProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FitnessBlenderTest" />
+      <option name="METHOD_NAME" value="addToCartTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FitnessBlenderTest.fitnessBlenderAddToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DefaultProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FitnessBlenderTest" />
+      <option name="METHOD_NAME" value="fitnessBlenderAddToCartTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FitnessBlenderTest.fitnessBlenderVideoPlayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DefaultProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FitnessBlenderTest" />
+      <option name="METHOD_NAME" value="fitnessBlenderVideoPlayTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportsDirectLoginTest.negativeLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DefaultProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SportsDirectLoginTest" />
+      <option name="METHOD_NAME" value="negativeLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportsDirectLoginTest.positiveLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DefaultProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SportsDirectLoginTest" />
+      <option name="METHOD_NAME" value="positiveLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FitnessBlenderTest.fitnessBlenderAddToCartTest" />
+        <item itemvalue="JUnit.FitnessBlenderTest.addToCartTest" />
+        <item itemvalue="JUnit.FitnessBlenderTest.fitnessBlenderVideoPlayTest" />
+        <item itemvalue="JUnit.SportsDirectLoginTest.positiveLoginTest" />
+        <item itemvalue="JUnit.SportsDirectLoginTest.negativeLoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c278b08-46b1-459c-bf8b-4a59d12f5295" name="Default Changelist" comment="" />
+      <created>1578590556742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578590556742</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1601491990977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601491990977" />
+    <state x="664" y="48" width="702" height="594" key="#xdebugger.evaluate" timestamp="1601489414315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="664" y="48" width="702" height="594" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601489414315" />
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1601493350071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1600267114452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114452" />
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601493350071" />
+    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1601493350071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1600267114452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.center.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114452" />
+    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601493350071" />
+    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1601493350070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1600267114451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.left.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114451" />
+    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601493350070" />
+    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1601493350071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1600267114452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="185" key="GridCell.Tab.0.right.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114452" />
+    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601493350071" />
+    <state width="1323" height="175" key="GridCell.Tab.1.bottom" timestamp="1601493350072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601493350072" />
+    <state width="1323" height="175" key="GridCell.Tab.1.center" timestamp="1601493350072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601493350072" />
+    <state width="1323" height="175" key="GridCell.Tab.1.left" timestamp="1601493350071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601493350071" />
+    <state width="1323" height="175" key="GridCell.Tab.1.right" timestamp="1601493350072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601493350072" />
+    <state x="145" y="0" key="SettingsEditor" timestamp="1601128069636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="145" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601128069636" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1601489383290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1601489383290" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1601468675642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601468675642" />
+    <state x="383" y="121" key="refactoring.ChangeSignatureDialog" timestamp="1600786861958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="383" y="121" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1600786861958" />
+    <state x="375" y="46" width="672" height="678" key="search.everywhere.popup" timestamp="1600267059102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="46" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600267059102" />
+  </component>
+</project>
