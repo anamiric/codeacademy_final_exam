@@ -3,8 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c278b08-46b1-459c-bf8b-4a59d12f5295" name="Default Changelist" comment="" />
+    <list default="true" id="1c278b08-46b1-459c-bf8b-4a59d12f5295" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -34,14 +57,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.FitnessBlenderTest.fitnessBlenderAddToCartTest">
+  <component name="RunManager" selected="JUnit.SportsDirectLoginTest.positiveLoginTest">
     <configuration name="FitnessBlenderTest.addToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DefaultProject" />
       <extension name="coverage">
@@ -90,8 +114,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SportsDirectLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeacademy_final_exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SportsDirectLoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SportsDirectLoginTest.negativeLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DefaultProject" />
+      <module name="codeacademy_final_exam" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -106,8 +145,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SportsDirectLoginTest.positiveLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DefaultProject" />
+    <configuration name="SportsDirectLoginTest.positiveLoginTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="codeacademy_final_exam" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -118,17 +158,18 @@
       <option name="MAIN_CLASS_NAME" value="tests.SportsDirectLoginTest" />
       <option name="METHOD_NAME" value="positiveLoginTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SportsDirectLoginTest.negativeLoginTest" />
+        <item itemvalue="JUnit.SportsDirectLoginTest" />
         <item itemvalue="JUnit.FitnessBlenderTest.fitnessBlenderAddToCartTest" />
         <item itemvalue="JUnit.FitnessBlenderTest.addToCartTest" />
         <item itemvalue="JUnit.FitnessBlenderTest.fitnessBlenderVideoPlayTest" />
-        <item itemvalue="JUnit.SportsDirectLoginTest.positiveLoginTest" />
-        <item itemvalue="JUnit.SportsDirectLoginTest.negativeLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +190,22 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602163566743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602163566743" />
     <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1601491990977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -158,38 +214,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="664" y="48" width="702" height="594" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601489414315" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1601493350071">
+    <state width="1323" height="268" key="GridCell.Tab.0.bottom" timestamp="1602163517198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1600267114452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114452" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601493350071" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1601493350071">
+    <state width="1323" height="268" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602163517198" />
+    <state width="1323" height="268" key="GridCell.Tab.0.center" timestamp="1602163517197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1600267114452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.center.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114452" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601493350071" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1601493350070">
+    <state width="1323" height="268" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602163517197" />
+    <state width="1323" height="268" key="GridCell.Tab.0.left" timestamp="1602163517197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1600267114451">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.left.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114451" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601493350070" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1601493350071">
+    <state width="1323" height="268" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602163517197" />
+    <state width="1323" height="268" key="GridCell.Tab.0.right" timestamp="1602163517198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1600267114452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1366" height="185" key="GridCell.Tab.0.right.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1600267114452" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601493350071" />
+    <state width="1323" height="268" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602163517198" />
     <state width="1323" height="175" key="GridCell.Tab.1.bottom" timestamp="1601493350072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -206,10 +262,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="175" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601493350072" />
-    <state x="145" y="0" key="SettingsEditor" timestamp="1601128069636">
+    <state x="145" y="0" key="SettingsEditor" timestamp="1602163408889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="145" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601128069636" />
+    <state x="145" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602163408889" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1601489383290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
