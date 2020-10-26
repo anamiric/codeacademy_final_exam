@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FitnessBlenderAddWorkoutProgramsToCart extends BaseHelper {
+public class AddWorkoutProgramsToCart extends BaseHelper {
     @FindBy(className = "content-container")
     WebElement workoutPrograms;
 
@@ -27,7 +27,7 @@ public class FitnessBlenderAddWorkoutProgramsToCart extends BaseHelper {
 
     WebDriver driver;
 
-    public FitnessBlenderAddWorkoutProgramsToCart(WebDriver driver) {
+    public AddWorkoutProgramsToCart(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

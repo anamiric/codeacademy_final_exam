@@ -10,16 +10,16 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FitnessBlenderGetWorkoutDetails extends BaseHelper {
+public class GetWorkoutDetails extends BaseHelper {
 
-    @FindBy(className = "stats")
+    @FindBy(className = "video-details")
     WebElement videoDetails;
 
     List<String> listOfWorkoutDetails = new ArrayList<>();
 
     WebDriver driver;
 
-    public FitnessBlenderGetWorkoutDetails(WebDriver driver) {
+    public GetWorkoutDetails(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -28,18 +28,17 @@ public class FitnessBlenderGetWorkoutDetails extends BaseHelper {
         List<WebElement> videoDetailsList = videoDetails.findElements(By.className("detail-value"));
         for (WebElement info : videoDetailsList) {
             String[] elements = splitByCommaAndReturn(info);
-            for (String element : elements){
+            for (String element : elements) {
                 listOfWorkoutDetails.add(element.trim());
             }
         }
 
         WebElement bodyPart = videoDetails.findElement(By.xpath("/html/body/main/div[2]/div/div[2]/div[1]/div/div/div/div/span[2]"));
         String[] elements = splitByCommaAndReturn(bodyPart);
-        for (String element : elements){
+        for (String element : elements) {
             listOfWorkoutDetails.add(element.trim());
         }
 
-        System.out.println(listOfWorkoutDetails);
     }
 
     public String[] splitByCommaAndReturn(WebElement element) {
@@ -53,7 +52,25 @@ public class FitnessBlenderGetWorkoutDetails extends BaseHelper {
         }
     }
 
-    public List<String> getListOfWorkoutDetails() {
-        return listOfWorkoutDetails;
+    public boolean isTimeBetweenChosenValues() {
+
+        String durationOfWorkout = listOfWorkoutDetails.get(0);
+        durationOfWorkout = durationOfWorkout.replace("Minutes", "").trim();
+        int workoutTime = Integer.parseInt(durationOfWorkout);
+        return (workoutTime > 30) && (workoutTime < 45);
+
     }
+
+    public boolean checkChosenFilters(List<String> listOfChosenFilters) {
+        boolean elementsExists = true;
+        for (String element : listOfChosenFilters) {
+            if (!listOfWorkoutDetails.contains(element)) {
+                elementsExists = false;
+                break;
+            }
+        }
+        return elementsExists;
+
+    }
+
 }

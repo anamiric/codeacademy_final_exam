@@ -11,22 +11,17 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
-public class FitnessBlenderChooseFromWorkoutsAndProgramsMenu extends BaseHelper
+public class ChooseFromWorkoutsAndProgramsMenu extends BaseHelper
 {
     @FindBy (className = "workouts")
     WebElement workoutsAndPrograms;
 
     WebDriver driver;
 
-    public FitnessBlenderChooseFromWorkoutsAndProgramsMenu(WebDriver driver)
+    public ChooseFromWorkoutsAndProgramsMenu(WebDriver driver)
     {
         this.driver = driver;
         PageFactory.initElements( driver, this);
-    }
-
-    private void navigateToURL ()
-    {
-        driver.get("https://www.fitnessblender.com/");
     }
 
     public void workoutDropdownMenu (Integer index)
@@ -44,7 +39,7 @@ public class FitnessBlenderChooseFromWorkoutsAndProgramsMenu extends BaseHelper
 
     public void chooseFromWorkoutDropdownMenu (Integer index)
     {
-        navigateToURL();
+        goToHomePage();
         workoutDropdownMenu(index);
 
     }
